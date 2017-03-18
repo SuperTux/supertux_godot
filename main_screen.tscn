@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://main_script.gd" type="Script" id=1]
+[ext_resource path="res://data/images/engine/menu/frame.png" type="Texture" id=2]
+
+[node name="main_screen" type="Node2D"]
+
+transform/pos = Vector2( 518.088, 312.016 )
+transform/scale = Vector2( 15.9971, 9.8812 )
+script/script = ExtResource( 1 )
+
+[node name="frame" type="Sprite" parent="."]
+
+transform/pos = Vector2( -32.1801, -32.1185 )
+transform/scale = Vector2( 63.9483, 60.4843 )
+texture = ExtResource( 2 )
+region = true
+
+

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://data/images/background/arcticskies1.png" type="Texture" id=1]
+[ext_resource path="res://data/images/engine/menu/logo.png" type="Texture" id=2]
+
+[node name="Sprite" type="Sprite"]
+
+transform/pos = Vector2( 514.35, 298.41 )
+transform/scale = Vector2( 0.614494, 0.573876 )
+texture = ExtResource( 1 )
+region_rect = Rect2( 0, 0, 640, 480 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+transform/pos = Vector2( 31.393, -217.912 )
+transform/scale = Vector2( 1.57345, 1.57345 )
+texture = ExtResource( 2 )
+
+
